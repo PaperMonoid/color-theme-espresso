@@ -103,6 +103,19 @@ Port of the default theme for Espresso on Mac OS X.")
    '(magit-diff-none ((t (:inherit diff-context :foreground "grey20"))))
    '(magit-item-highlight ((t (:background nil :foreground "black"))))
 
+   ;; Company
+   ;; See more:
+   ;; https://www.emacswiki.org/emacs/CompanyMode
+   `(company-tooltip ((t (:inherit (company-tooltip-search-selection) :background "#EEEEEE"))))
+   `(company-tooltip-common ((t :foreground "#BC670F" :background "#FDFBF5" :underline t)))
+   `(company-tooltip-selection ((t :foreground "#4E279A" :background "grey99")))
+   `(company-template-field ((t :inherit company-tooltip :foreground "#C2A1FF")))
+   `(company-tooltip-common-selection ((t :foreground "#7653C1" :background "#F3F2FF" :underline t)))
+   `(company-scrollbar-fg ((t :background "#4E279A")))
+   `(company-scrollbar-bg ((t :background "#E8E8E8")))
+   `(company-tooltip-annotation ((t :inherit company-tooltip :foreground "#4E279A")))
+
+
    ;; Done
    ))
 
