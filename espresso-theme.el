@@ -115,6 +115,15 @@ Port of the default theme for Espresso on Mac OS X.")
    `(company-scrollbar-bg ((t :background "#E8E8E8")))
    `(company-tooltip-annotation ((t :inherit company-tooltip :foreground "#4E279A")))
 
+   ;; Helm
+   ;; See more:
+   ;; https://stackoverflow.com/a/41616720
+   `(helm-source-header ((t :background "#F3F2FF" :foreground "#4E279A" :height 1.25)))
+   `(helm-ff-directory ((t (:foreground "#BC670F" :background "#FDFBF5"))))
+   `(helm-ff-dotted-directory ((t (:foreground "grey50" :background ,subtle-color))))
+   `(helm-selection ((t (:background ,active-color))))
+   `(helm-ff-file-extension ((t (:background "#F4FCE3" :foreground "#83AD36"))))
+
 
    ;; Done
    ))
